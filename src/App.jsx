@@ -1,5 +1,6 @@
 import Conditional_Props from "./concept/conditionalrendering/Conditional_Props"
 import ConditionalRendering from "./concept/conditionalrendering/ConditionalRendering"
+import ContextApi from "./concept/contextapi/ContextApi"
 import Css_React from "./concept/cssinreact/Css_React"
 import DefaultProps from "./concept/defaultprops/DefaultProps"
 import ControlledFormHandling from "./concept/formhandling/controlledFormhandling/ControlledFormHandling"
@@ -13,7 +14,9 @@ import PropsHome from "./concept/props/PropsHome"
 import ReactMemo from "./concept/reactmemo/ReactMemo"
 import RoutingConcept from "./concept/routing/RoutingConcept"
 import RoutingTask from "./concept/routingtask/RoutingTask"
+import RtkConcept from "./concept/rtk/RtkConcept"
 import TailwindCssConcept from "./concept/tailwindcssconcept/TailwindCssConcept"
+import UseReducerHook from "./concept/usereducerhook/UseReducerHook"
 
 const App=()=>{
    return(
@@ -33,7 +36,10 @@ const App=()=>{
         {/* <ControlledFormHandling/> */}
         {/* <RoutingConcept/> */}
         {/* <TailwindCssConcept/> */}
-        <RoutingTask/>
+        {/* <RoutingTask/> */}
+        {/* <ContextApi/> */}
+        {/* <UseReducerHook/> */}
+        <RtkConcept/>
     </div>
    )
 }

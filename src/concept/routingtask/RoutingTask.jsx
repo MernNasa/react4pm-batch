@@ -6,6 +6,7 @@ import Services from './pages/Services'
 import Contact from './pages/Contact'
 import Dashboard from './pages/Dashboard'
 import Login from './pages/Login'
+import PrivateRouting from './privaterouting/PrivateRouting'
 
 const RoutingTask = () => {
     const routes=createBrowserRouter([
@@ -27,7 +28,9 @@ const RoutingTask = () => {
             },
             {
               path:"/dashboard",
-              element:<Dashboard/>,
+              element:<PrivateRouting>
+                <Dashboard/>
+              </PrivateRouting>,
               children:[
                 {}
               ]
